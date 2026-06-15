@@ -2,10 +2,15 @@ import os
 import sys
 import pytesseract
 
-# Tesseract OCR settings
-TESSERACT_CMD = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-pytesseract.pytesseract.tesseract_cmd = TESSERACT_CMD
+import os
 
+# Tesseract OCR settings
+if os.name == 'nt':  # Windows
+    TESSERACT_CMD = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+else:  # Linux (Render server)
+    TESSERACT_CMD = "/usr/bin/tesseract"
+
+pytesseract.pytesseract.tesseract_cmd = TESSERACT_CMD
 # Haar Cascade file for plate detection
 HAAR_CASCADE_NAME = "haarcascade_russian_plate_number.xml"
 HAAR_CASCADE_URL = "https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_russian_plate_number.xml"
