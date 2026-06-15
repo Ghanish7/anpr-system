@@ -1,0 +1,42 @@
+{
+    "MH12DE1433": {
+        "owner": "Rajesh Kumar",
+        "make": "Maruti Suzuki",
+        "model": "Swift",
+        "color": "Silver",
+        "status": "Active",
+        "insurance_expiry": "2027-04-12"
+    },
+    "DL7CQ1939": {
+        "owner": "Ghanish",
+        "make": "Maybach",
+        "model": "S-Class",
+        "color": "Obsidian Black",
+        "status": "Active",
+        "insurance_expiry": "2028-09-15"
+    },
+    "DL3CAY1102": {
+        "owner": "Anjali Sharma",
+        "make": "Hyundai",
+        "model": "i20",
+        "color": "White",
+        "status": "Active",
+        "insurance_expiry": "2026-11-20"
+    },
+    "KA03MM5544": {
+        "owner": "Vikram Singh",
+        "make": "Honda",
+        "model": "City",
+        "color": "Black",
+        "status": "Active",
+        "insurance_expiry": "2027-08-01"
+    },
+    "HR26CT8899": {
+        "owner": "Amit Chaudhary",
+        "make": "Toyota",
+        "model": "Fortuner",
+        "color": "Grey",
+        "status": "Suspended (Unpaid Fines)",
+        "insurance_expiry": "2025-05-15"
+    }
+}

@@ -1,0 +1,2 @@
+filename,plate_number,confidence,timestamp,owner,vehicle_status,db_match_type
+car_test.jpg,MH12DE1433,71.0,2026-06-15 05:52:55,Rajesh Kumar,Active,exact
